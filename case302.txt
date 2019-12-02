@@ -1,0 +1,26 @@
+package case30;
+
+import java.util.Scanner;
+
+public class case302 {
+	int id;
+	String name,address,mob,mail,prooft,proofno;
+	public void register(int id,String name,String address,String mob,String mail,String prooft,String proofno)
+	{
+		Scanner s=new Scanner(System.in);
+		String op,op2;
+		this.id=id;
+		this.name=name;
+		this.address=address;
+		this.mob=mob;
+		this.mail=mail;
+		this.prooft=prooft;
+		this.proofno=proofno;
+		
+	}
+	void display()
+	{
+		System.out.println(id+"\t\t\t"+name);
+	}
+
+}
